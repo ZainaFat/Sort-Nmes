@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Project_86
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="main.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <center>
+        <h1>Find out the Average Score and Learn Sorting</h1>
+        <hr>
+        <div class="formLayout">
+        <div>
+
+            
+            <label>
+                <h2>Enter Student's Name</h2></label>
+                <input placeholder="Student's Name" type="text" id="student's_name">
+            
+            <label>
+                <h2>Enter Student's Score</h2></label>
+                <input placeholder="Student's Score" type="number" id="score">
+            
+            <br>
+            <br>
+            <br>
+<button type="button" id="add_score" onclick="add_name()">
+Add Student's Name
+</button>
+        </div>
+<div>
+    <h1>Sort Student's by Name</h1>
+    <form id="form">
+    <textarea id="scores"  rows="5" cols="30">
+
+    </textarea></form>
+    <br>
+    <br>
+    <br>
+    <span>
+        <label>
+        <h2>Average Score</h2></label>
+        <form id="form">
+        <textarea id="average_score_area">
+
+        </textarea></form>
+    </span><br>
+    <br><br>
+    <label>&nbsp;</label>
+    <button type="button" id="sort_btn" onclick="sort()">
+        Sort Students by their Names
+        </button>
+        <br>
+        <br><br>
+        <label>&nbsp;</label>
+
+    <button type="button" id="clear_click" onclick="clear_click()">
+        Clear Student's Name
+        </button>
+      <br><br><br>
+      <hr>  
+        
+</div></div></center>
+    </body>
+</html>
+
